@@ -44,7 +44,7 @@ Dim pspt : pspt = Replace(WScript.ScriptFullName, ".vbs", ".ps1")
 WScript.CreateObject("WScript.Shell").Run "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -File " & Chr(34) & pspt & Chr(34), 0
 ```
 「MenuItem.txt」に`html記号置換  (&q) 	|[!E "C:\Users\user\cv-html-s.vbs" ]`追加  
-「C:\Users\user」をに両ファイルを保存した例  
+「C:\Users\user」に両ファイルを保存した例  
 ## 参考サイト
 <span style="color: #38761d;"><br>(参)<br>PowerShellでBEEP音を鳴らす #PowerShell - Qiita<br>https://qiita.com/mima_ita/items/ac33542ae3f2fb5c8778</span><br>
 <span style="color: #38761d;"><br />(参)<br />PowerShell のウィンドウを一切表示させずに実行する - Neo's World<br />https://neos21.net/blog/2021/08/10-01.html</span><br />
