@@ -1,6 +1,5 @@
 ---
 layout: default
-description: 最後の更新 gitolite3が動作するDockerファイル
 lang: ja_JP
 ---
 工事中  
