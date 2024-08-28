@@ -1,7 +1,3 @@
----
-layout: default
-lang: ja_JP
----
 工事中  
 最後の更新(2024/08)  
 # gitolite3が動作するDockerファイル
