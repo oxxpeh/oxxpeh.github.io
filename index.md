@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ffmpegをスタティックなライブラリで作るDockerファイル
-description: ffmpegをスタティックなライブラリで作るDockerファイル 
+title: オッペケペーなものいろいろ
+description: 最後の更新(2024/08) gitolite3が動作するDockerファイル
 lang: ja_JP
 ---
 
