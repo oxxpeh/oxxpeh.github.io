@@ -1,7 +1,7 @@
 # PowerShellでbeep音を鳴らす
 テキスト入力ツール「ペースター」を使用してます。  
-複数の条件の置換をしたくてPowerShellのreplaceを使用してますが  
-実行後音もならず寂しく思ったので追加してみた
+複数の条件の置換をしたくてPowerShellのreplaceを使用してましたが  
+実行後音もならず寂しく思ったので追加を
 ## 使い方
 「cv-html-s.vbs」と「cv-html-s.ps1」を作成
 「cv-html-s.ps1」
