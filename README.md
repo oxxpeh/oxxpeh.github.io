@@ -1,7 +1,6 @@
 ---
 layout: default
-title: oxxpehなものいろいろ
-description: 最後の更新(2024/08) gitolite3が動作するDockerファイル
+description: 最後の更新 gitolite3が動作するDockerファイル
 lang: ja_JP
 ---
 工事中  
