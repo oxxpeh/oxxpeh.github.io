@@ -8,7 +8,7 @@ lang: ja_JP
  
 最後の更新(2024/09)  
 # incusにてcloud-initで初期設定  
-「証明書いれる」「IP設定」「apt」「スクリプト実行」揃ってる例がなかったようなので
+「証明書いれる」「IP設定」「apt」「スクリプト実行」揃ってる例がなかったようなので  
 [Github](https://github.com/oxxpeh/pub/tree/main/incus)   
 2024/09/05
 # PowerShellでbeep音を鳴らす(ペースターで利用)
