@@ -1,12 +1,15 @@
 ---
 layout: default
 title: オッペケペーなものいろいろ
-description: 最後の更新(2024/09) incusにてcloud-initで初期設定 PowerShellでbeep音を鳴らす(ペースターで利用), gitolite3が動作するDockerファイル
+description: 最後の更新(2024/09) bumpなsquidを作るDockerfile incusにてcloud-initで初期設定 PowerShellでbeep音を鳴らす(ペースターで利用)
 lang: ja_JP
 ---
 
  
 最後の更新(2024/09)  
+# bumpなsquidを作るDockerfile
+windows updateにも対応させてみた
+2024/09/28
 # incusにてcloud-initで初期設定  
 「証明書いれる」「IP設定」「apt」「スクリプト実行」揃ってる例がなかったようなので  
 [Github](https://github.com/oxxpeh/pub/tree/main/incus)   
