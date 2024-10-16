@@ -1,12 +1,18 @@
 ---
 layout: default
 title: オッペケペーなものいろいろ
-description: 最後の更新(2024/09) bumpなsquidを作るDockerfile incusにてcloud-initで初期設定 PowerShellでbeep音を鳴らす(ペースターで利用)
+description: 最後の更新(2024/10) ffmpegをスタティックなライブラリで作るDockerファイル bumpなsquidを作るDockerfile incusにてcloud-initで初期設定 
 lang: ja_JP
 ---
 
  
-最後の更新(2024/09)  
+最後の更新(2024/10) 
+# ffmpegをスタティックなライブラリで作るDockerファイル
+7.1で確認  
+[Github](https://github.com/oxxpeh/pub/tree/main/ffmpeg-static)   
+[Github Pages](https://oxxpeh.github.io/pub/ffmpeg-static.html)  
+2024/10/06
+
 # bumpなsquidを作るDockerfile
 windows updateにも対応してみた  
 (ダメな更新のときもあるみたい、そのときはプロキシ無しで…)  
@@ -25,9 +31,5 @@ windows updateにも対応してみた
 [Github Pages](https://oxxpeh.github.io/docker-gitolite3/)  
 2024/08/28
   
-# ffmpegをスタティックなライブラリで作るDockerファイル
-[Github](https://github.com/oxxpeh/pub/tree/main/ffmpeg-static)   
-[Github Pages](https://oxxpeh.github.io/pub/ffmpeg-static.html)  
-2024/08/11
 
 
