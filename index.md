@@ -9,6 +9,7 @@ lang: ja_JP
 最後の更新(2024/09)  
 # bumpなsquidを作るDockerfile
 windows updateにも対応してみた  
+(ダメな更新のときもあるみたい、そのときはプロキシ無しで…)  
 [Github](https://github.com/oxxpeh/pub/tree/main/docker/squid)  
 2024/09/28
 # incusにてcloud-initで初期設定  
