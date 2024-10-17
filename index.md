@@ -7,17 +7,19 @@ lang: ja_JP
 
  
 最後の更新(2024/10) 
+# bumpなsquidを作るDockerfile
+squid6.10 ubuntu24.10に更新  
+windows updateについても追記  
+(ダメな更新のときもあるみたい、そのときはプロキシ無しで…)  
+[Github](https://github.com/oxxpeh/pub/tree/main/docker/squid)  
+2024/10/16
+
 # ffmpegをスタティックなライブラリで作るDockerファイル
 7.1で確認  
 [Github](https://github.com/oxxpeh/pub/tree/main/ffmpeg-static)   
 [Github Pages](https://oxxpeh.github.io/pub/ffmpeg-static.html)  
 2024/10/06
 
-# bumpなsquidを作るDockerfile
-windows updateにも対応してみた  
-(ダメな更新のときもあるみたい、そのときはプロキシ無しで…)  
-[Github](https://github.com/oxxpeh/pub/tree/main/docker/squid)  
-2024/09/28
 # incusにてcloud-initで初期設定  
  証明書いれる IP設定 apt スクリプト実行 揃ってる例がなかったようなので  
 [Github](https://github.com/oxxpeh/pub/tree/main/incus)   
