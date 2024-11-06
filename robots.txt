@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://oxxpeh.github.io/sitemap.xml
+User-agent: *
+Allow: /*.html$
