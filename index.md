@@ -10,7 +10,7 @@ lang: ja_JP
 html関連の物だけになりそう  
 最後の更新(2025/03) 
 ## pyscript plotlyで10秒足のローソク足チャート作成 
-動作ページ  
+動作ページ(ただし更新されない…)  
 [Github Pages](https://oxxpeh.github.io/2025/03_pys_ch.html)  
 説明  
 [Github](https://github.com/oxxpeh/pub/blob/main/python/10s-chart/README.md)  
