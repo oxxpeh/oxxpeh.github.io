@@ -10,7 +10,8 @@ lang: ja_JP
 html関連の物だけになりそう  
 最後の更新(2025/03) 
 ## pyscript plotlyで10秒足のローソク足チャート作成 
-動作ページ(ただし更新されない…)  
+動作ページ(ただし更新されない…) 
+「開始は2025年03月15日 19:20:07.326000です。」な表示が出たら準備完了(結構時間がかかる)  
 [Github Pages](https://oxxpeh.github.io/2025/03_pys_ch.html)  
 説明  
 [Github](https://github.com/oxxpeh/pub/blob/main/python/10s-chart/README.md)  
