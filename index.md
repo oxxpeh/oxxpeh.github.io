@@ -1,13 +1,20 @@
 ---
 layout: default
 title: オッペケペーなものいろいろ
-description: 最後の更新(2024/10) incus Ubuntu 24.10 xrdp ffmpegをスタティックなライブラリで作るDockerファイル bumpなsquidを作るDockerfile incusにてcloud-initで初期設定 
+description: 最後の更新(2025/03) pyscript plotlyで10秒足のローソク足チャート作成 incus Ubuntu 24.10 xrdp ffmpegをスタティックなライブラリで作るDockerファイル
 lang: ja_JP
 ---
 
 # あるものリスト
-他所で書いてないようなものを置けたらいいなぁ  
-最後の更新(2024/10) 
+~~他所で書いてないようなものを置けたらいいなぁ~~  
+html関連の物だけになりそう  
+最後の更新(2025/03) 
+## pyscript plotlyで10秒足のローソク足チャート作成 
+動作ページ  
+[Github Pages](https://oxxpeh.github.io/2025/03_pys_ch.html)  
+説明  
+[Github](https://github.com/oxxpeh/pub/blob/main/python/10s-chart/README.md)  
+
 ## Ubuntu 24.10 とxrdp
 incus Ubuntu 24.10 とxrdpで苦労したので  
 「proposed」のxrdpにする  
