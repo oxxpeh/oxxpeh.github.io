@@ -1,14 +1,18 @@
 ---
 layout: default
 title: オッペケペーなものいろいろ
-description: 最後の更新(2025/03) pyscript plotlyで10秒足のローソク足チャート作成 incus Ubuntu 24.10 xrdp ffmpegをスタティックなライブラリで作るDockerファイル
+description: 最後の更新(2025/04) Pyscripy Plotlyで図の情報をjsonで取得し描画 pyscript plotlyで10秒足のローソク足チャート作成 incus Ubuntu 24.10 xrdp 
 lang: ja_JP
 ---
 
 # あるものリスト
 ~~他所で書いてないようなものを置けたらいいなぁ~~  
 html関連の物だけになりそう  
-最後の更新(2025/03) 
+最後の更新(2025/04) 
+## Pyscripy Plotlyで図の情報をjsonで取得し描画
+動作ページ  
+[Github Pages](https://oxxpeh.github.io/2025/04_pys_fetch.html)  
+
 ## pyscript plotlyで10秒足のローソク足チャート作成 
 動作ページ(ただし更新されない…)  
 「開始は2025年03月15日 19:20:07.326000です。」な表示が出たら準備完了(結構時間がかかる)  
