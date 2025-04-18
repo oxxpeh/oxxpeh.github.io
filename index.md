@@ -9,7 +9,7 @@ lang: ja_JP
 ~~他所で書いてないようなものを置けたらいいなぁ~~  
 html関連の物だけになりそう  
 最後の更新(2025/04) 
-## Pyscripy Plotlyで図の情報をjsonで取得し描画
+## Pyscript Plotlyで図の情報をjsonで取得し描画
 動作ページ  
 [Github Pages](https://oxxpeh.github.io/2025/04_pys_fetch.html)  
 
