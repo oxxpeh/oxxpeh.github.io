@@ -1,0 +1,8 @@
+# -- ver 0.02
+# -- 2025/04/18
+# -- 2025/04/
+
+name = "chart"
+description = "chart plotly=6.0.1(js3.0.1) pandas=1.5.3 "
+packages = ["plotly", "requests"]
+
