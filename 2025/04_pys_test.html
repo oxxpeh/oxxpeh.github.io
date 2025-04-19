@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyScript Fetch Example</title>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <!-- for splashscreen -->
+    <style>
+        #loading { outline: none; border: none; background: transparent }
+    </style>
+    
+    <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"> -->
+    <!-- <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
+    <script type="module">
+        const loading = document.getElementById('loading');
+        addEventListener('py:ready', () => loading.close());
+        loading.showModal();
+    </script>
 </head>
 <body>
     <h1>PyScriptでファイルを取得</h1>
