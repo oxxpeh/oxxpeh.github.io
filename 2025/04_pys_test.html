@@ -12,7 +12,7 @@
     <button id="fetch-button">ファイルを取得</button>
     <pre id="output"></pre>
 
-    <py-script>
+    <script type="py">
         from js import fetch, console
 
         async def fetch_file():
@@ -31,6 +31,6 @@
         # ボタンにクリックイベントを追加
         button = Element('fetch-button')
         button.element.onclick = on_button_click
-    </py-script>
+    </script>
 </body>
 </html>
