@@ -54,8 +54,29 @@
         <option value="btc_jpy">btc_jpy</option>
         </select>
     <button id="submit-button" py-click="ff_set_cur">選択</button>
+    <script>
+    function ff_out_dt(aas_hd, ele_id) {
+        // 現在の日時を取得
+        const now = new Date();
 
+        // 現在の時間をフォーマット
+        const hours = String(now.getHours()).padStart(2, '0'); // 時間
+        const minutes = String(now.getMinutes()).padStart(2, '0'); // 分
+        const seconds = String(now.getSeconds()).padStart(2, '0'); // 秒
+        const milliseconds = String(now.getMilliseconds()).padStart(3, '0'); // ミリ秒
+        // フォーマットされた時間を作成
+        const currentTime = `${aas_hd} ${hours}:${minutes}:${seconds}.${milliseconds}`;
+
+        // 指定されたIDの要素に時間を出力
+        document.getElementById(ele_id).textContent = currentTime;
+    }
+    window.onload = function() {
+        ff_out_dt('JS St', 'ele_js1');
+    };
+    </script>
         <div  class="right-align">
+        <span id="ele_js1"></span><span id="ele_js2"></span><br />
+        <span id="ele_pyd"></span> 
         <div id="ele_date"></div>
         <span id="ele_daten"></span>
         <span id="ele_datenn"></span><br>
@@ -65,6 +86,7 @@
         <div id="ele_out3"></div>
         </div>
         <div id="table"></div>
+        
         <section class="pyscript">
             <div id="ele_chart"></div>
             <script type="py" src="https://raw.githubusercontent.com/oxxpeh/pub/main/python/10s-chart/pys_ch.py" config="https://raw.githubusercontent.com/oxxpeh/pub/main/python/10s-chart//pys_ch.toml"></script>
