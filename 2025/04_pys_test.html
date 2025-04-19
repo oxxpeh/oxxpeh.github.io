@@ -48,7 +48,9 @@
             await ii_as.sleep(5)
             ii_pys.display(f" xx", target="out1", append=True)
         def on_button_click(event):
-            fetch_file()
+            #fetch_file()
+            loop = ii_as.get_event_loop()
+            loop.run_until_complete(fetch_file())
 
         # ボタンにクリックイベントを追加
         button = document.getElementById('fetch-button')
@@ -59,7 +61,7 @@
         loop = ii_as.get_event_loop()
         #ii_as.run(ff_sl())
         loop.run_until_complete(ff_sl())
-        loop.run_until_complete(fetch_file())
+        #loop.run_until_complete(fetch_file())
     </script>
     </section>
 </body>
