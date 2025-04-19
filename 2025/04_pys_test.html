@@ -43,7 +43,10 @@
                 output_element.innerText = text  # 取得した内容を表示
             else:
                 console.log('ファイルの取得に失敗しました。')
-
+        
+        async def ff_sl:
+            ii_as.sleep(5)
+            ii_pys.display(f" xx", target="out1", append=True)
         def on_button_click(event):
             fetch_file()
 
@@ -53,7 +56,7 @@
         ele_o1 = document.getElementById('out1')
         ele_o1.innerText = 'started'
         ii_pys.display(f" ed", target="out1", append=True)
-        ii_as.run(fetch_file())
+        ii_as.run(ff_sl())
     </script>
     </section>
 </body>file
