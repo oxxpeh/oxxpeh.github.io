@@ -37,7 +37,7 @@
             if response.ok:
                 text = await response.text()
                 console.log(text)  # コンソールに出力
-                output_element = Element('output')
+                output_element = document.Element('output')
                 output_element.element.innerText = text  # 取得した内容を表示
             else:
                 console.log('ファイルの取得に失敗しました。')
@@ -46,9 +46,9 @@
             fetch_file()
 
         # ボタンにクリックイベントを追加
-        button = Element('fetch-button')
+        button ==document.Element('fetch-button')
         button.element.onclick = on_button_click
-        ele_o1 = Element('out1')
+        ele_o1 = document.Element('out1')
         ele_o1.element.innerText = 'started'
     </script>
     </section>
