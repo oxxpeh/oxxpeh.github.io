@@ -56,7 +56,9 @@
         ele_o1 = document.getElementById('out1')
         ele_o1.innerText = 'started'
         ii_pys.display(f" ed", target="out1", append=True)
-        ii_as.run(ff_sl())
+        loop = ii_as.get_event_loop()
+        #ii_as.run(ff_sl())
+        loop.run_until_complete(ff_sl())
     </script>
     </section>
 </body>
