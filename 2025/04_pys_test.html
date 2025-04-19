@@ -11,6 +11,7 @@
     <h1>PyScriptでファイルを取得</h1>
     <button id="fetch-button">ファイルを取得</button>
     <pre id="output"></pre>
+    <pre id="out1">loading</pre>
     <section class="pyscript">
     <script type="py">
         from js import fetch, console
@@ -31,6 +32,8 @@
         # ボタンにクリックイベントを追加
         button = Element('fetch-button')
         button.element.onclick = on_button_click
+        ele_o1 = Element('out1')
+        ele_o1.element.innerText = 'started'
     </script>
     </section>
 </body>
