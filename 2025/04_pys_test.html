@@ -30,6 +30,8 @@
     <pre id="out1">loading</pre>
     <section class="pyscript">
     <script type="py">
+        import async as ii_as
+        import pyscript as ii_pys
         from js import fetch, console, document
 
         async def fetch_file():
@@ -49,7 +51,8 @@
         button = document.getElementById('fetch-button')
         button.onclick = on_button_click
         ele_o1 = document.getElementById('out1')
-        ele_o1.innerText = 'started'
+        ele_o1.innerText = 'started
+        ii_pys.display(f" ed", target="out1", append=True)
     </script>
     </section>
 </body>
