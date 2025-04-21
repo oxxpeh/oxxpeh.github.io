@@ -1,0 +1,2 @@
+# PyScript Editor動作できたのでちょっと比較
+他で作ったyamlで図データ取得してplotlyで描画するやつで比較
