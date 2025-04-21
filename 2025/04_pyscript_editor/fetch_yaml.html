@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ver 0.01 -->
+    <!-- 2025/04/19 -->
+
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js"></script>
+    <title>fetch yaml js</title>
+</head>
+<body>
+    <h1>fetch yaml js</h1>
+    <span id="ele_js1"></span><span id="ele_js2"></span><br />
+    <span id="ele_out1">init</span>
+    <span id="ele_out2"></span>
+    <span id="ele_plot"></span>
+    <script>
+    function ff_get_t(aas_url){
+    }
+    function ff_out_dt(aas_hd, ele_id) {
+        // 現在の日時を取得
+        const now = new Date();
+
+        // 現在の時間をフォーマット
+        const hours = String(now.getHours()).padStart(2, '0'); // 時間
+        const minutes = String(now.getMinutes()).padStart(2, '0'); // 分
+        const seconds = String(now.getSeconds()).padStart(2, '0'); // 秒
+        const milliseconds = String(now.getMilliseconds()).padStart(3, '0'); // ミリ秒
+        // フォーマットされた時間を作成
+        const currentTime = `${aas_hd} ${hours}:${minutes}:${seconds}.${milliseconds}`;
+
+        // 指定されたIDの要素に時間を出力
+        document.getElementById(ele_id).textContent = currentTime;
+    }
+        // YAMLファイルを読み込む関数
+        async function ff_loadYAML(url) {
+            const response = await fetch(url);
+            const text = await response.text();
+            return jsyaml.load(text);
+        }
+
+        // Plotlyで描画する関数
+        async function ff_drawPlot() {
+            const figure = await ff_loadYAML('https://raw.githubusercontent.com/oxxpeh/pub/main/javascript/2025_04_fetch_plorly/fig.yaml'); // YAMLファイルのパスを指定
+            Plotly.newPlot('ele_plot', figure.data, figure.layout);
+        }
+
+        // ページが読み込まれたら描画を実行
+    window.onload = async function() {
+        ff_out_dt('JS St', 'ele_js1');
+        await ff_drawPlot();
+        ff_out_dt('JS Ed', 'ele_out1');
+        
+    };
+    </script>
+
+
+</body>
+</html>
