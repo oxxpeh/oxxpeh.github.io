@@ -1,5 +1,6 @@
 # PyScript Editor動作できたのでちょっと比較
-他で作ったyamlで図データ取得してplotlyで描画するやつで比較
+他で作ったyamlで図データ取得してplotlyで描画するやつで比較  
+GithubpagesでCORP関連のヘッダ追加設定できてないのでeditor動作しない…
 ## ファィル
 ・ pys_fetch_yaml.html -> 追加とかなし  
 ・ pys_fetch_yamlp.html -> 追加でpandasインポート  
