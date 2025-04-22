@@ -11,7 +11,7 @@ GithubpagesでCORP関連のヘッダ追加設定できてないのでeditor動�
 ・ vsplit2.html -> pyscript使用(editorなし)とjavascriptのみ  
     [Githubpages](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit2.html)と[pyscriptapps.com](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit2.html)で動作
 ・ pys_hikaku.jpg -> 4種比較の結果画面  
-・ pys_hikau.mp4  -> 4種比較の動作動画 (2MB)  
+・ [pys_hikau.mp4](./pys_hikaku.mp4)  -> 4種比較の動作動画 (2MB)  
 ## その他
 ・結果画面  
 ![4種比較の結果](./pys_hikaku.jpg)  
