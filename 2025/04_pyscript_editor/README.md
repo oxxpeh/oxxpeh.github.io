@@ -26,12 +26,12 @@ GithubpagesでCORP関連のヘッダ追加設定できなさそうなのでedito
 <video controls=controls autoplay loop muted width="800" height="450" >
 <source src="https://raw.githubusercontent.com/oxxpeh/oxxpeh.github.io/main/2025/04_pyscript_editor/editor.mp4" type="video/mp4" />
 </video>  
-以下のことができる予定。(デザインセンスは無いので…)</p>
+以下のことができる予定。(デザインセンスは無いので…)<br />
 <ol>
 <li>各セル(？)の入力出力のクリップボードへのコピー</li>
 <li>各セル(？)の入力出力のクリア</li>
 <li>各セルの実行</li>
-<li>ネットからのソースの取得と下のセルに入力</li>
+<li>ネットからのコードの取得と下のセルに入力</li>
 </ol><br />
 ・エディタでの自動実行<br />
 エディタとは別でPyscript実行し、エディタ右下の実行アイコンクリックさせる<br />  
