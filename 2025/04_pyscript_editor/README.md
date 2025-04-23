@@ -23,7 +23,7 @@ GithubpagesでCORP関連のヘッダ追加設定できなさそうなのでedito
 ・結果画面とか  
 ![4種比較の結果](./pys_hikaku.jpg) 
 ・エディタページを作ってみたのでその動作画面
-<video controls="controls">
+<video controls=controls autoplay loop muted width="800" height="450" >
 <source src="https://raw.githubusercontent.com/oxxpeh/oxxpeh.github.io/main/2025/04_pyscript_editor/editor.mp4" type="video/mp4" />
 </video>  
 以下のことができる予定。(デザインセンスは無いので…)</p>
