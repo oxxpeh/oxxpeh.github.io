@@ -18,7 +18,7 @@ GithubpagesでCORP関連のヘッダ追加設定できなさそうなのでedito
 以下は同時に開いて速度比較用  
 ・ vsplit.html -> pyscripot 4種比較※[pyscriptapps.com](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit.html)で動作    
 ・ vsplit2.html -> pyscript使用(editorなし)とjavascriptのみ  
-&nbsp;&nbsp;&nbsp;&nbsp;[Githubpages](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit2.html)と[pyscriptapps.com](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit2.html)で動作  
+&nbsp;&nbsp;&nbsp;&nbsp;[Githubpages](https://oxxpeh.github.io/2025/04_pyscript_editor/vsplit2.html)と[pyscriptapps.com](https://oxxpeh.pyscriptapps.com/pys-hikaku/latest/vsplit2.html)で動作  
 ・ pys_hikaku.jpg -> 4種比較の結果画面    
 ・ [pys_hikau.mp4](./pys_hikaku.mp4)  -> 4種比較の動作動画 (160kB)  
   
