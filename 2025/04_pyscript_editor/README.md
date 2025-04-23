@@ -1,3 +1,10 @@
+---
+layout: default
+title: PyScript Editor動作できたのでちょっと比較とか
+description: PyScriptのEditor操作動画とかいろいろ
+lang: ja_JP
+---
+
 # PyScript Editor動作できたのでちょっと比較
 他で作ったyamlで図データ取得してplotlyで描画するやつで比較  
 GithubpagesでCORP関連のヘッダ追加設定できなさそうなのでeditor動作しない…  
@@ -37,6 +44,6 @@ GithubpagesでCORP関連のヘッダ追加設定できなさそうなのでedito
 エディタとは別でPyscript実行し、エディタ右下の実行アイコンクリックさせる<br />  
 <pre><code>
 import pyscript as ii_pys
-ii_pys.document.getElementsByClassName('absolute py-editor-run-button')[0].click()
+ii_pys.document.getElementsByClassName('absolute py-editor-run-button')[-1].click()
 </code></pre><br />
 ・Editorの出力とかその他追記予定…  <br />
