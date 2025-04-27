@@ -1,0 +1,64 @@
+<!doctype html>
+<!-- ver 0.02 -->
+<!-- 2025/04/27 -->
+<!-- 2025/03/ -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css">
+        <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js"></script>
+        <title>Chart</title>
+
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <h1>Chart</h1>
+        <select id="ll_cur">
+            <option value="">選択してください</option>
+            <option value="btc_jpy">btc_jpy</option>
+        </select>
+        <button id="ele_bt_exe" type="submit" py-click="ff_set_cur">選択</button>
+        <span id="ele_date"></span><br>
+        <span id="ele_daten"></span>
+        <span id="ele_datenn"></span><br>
+        </div>
+        <div id="ele_chart"></div>
+        <div id="ele_d_log" style="height:200px;overflow-y: scroll"></div>
+    
+        <section class="pyscript">
+            <script type="py" src="https://raw.githubusercontent.com/oxxpeh/pub/main/python/10s-chart/pys_ch.py" config='{"packages": ["pandas","plotly"]}'></script>
+            <!-- <script type="py-editor" config='{"packages": ["pandas","panel","plotly"]}'></script> -->
+        </section>
+        <script>
+function ff_get_dt(){
+    // 現在の日時を取得
+    const now = new Date();
+    
+    // 現在の時間をフォーマット
+    const hours = String(now.getHours()).padStart(2, '0'); // 時間
+    const minutes = String(now.getMinutes()).padStart(2, '0'); // 分
+    const seconds = String(now.getSeconds()).padStart(2, '0'); // 秒
+    const milliseconds = String(now.getMilliseconds()).padStart(3, '0'); // ミリ秒
+    // フォーマットされた時間を作成
+    const aas_dtn = `${hours}:${minutes}:${seconds}.${milliseconds}`;
+    return aas_dtn
+}
+function ff_wr_log(aas_hd, ele_id = 'ele_d_log') {
+    // 現在の日時を取得
+    const currentTime = `${ff_get_dt()}`
+
+    // 指定されたIDの要素に時間を出力
+    document.getElementById(ele_id).innerHTML = `${currentTime} ${aas_hd}<br />`;
+}
+window.onload = function() {
+    ff_wr_log('Page load');
+}
+    </script>
+    </body>
+</html>
