@@ -14,10 +14,10 @@ html関連の物だけになりそう
 [Github Pages](https://oxxpeh.github.io/2025/04_pys_fetch.html)  
 
 ## pyscript plotlyで10秒足のローソク足チャート作成 
-2025/04/27に更新それまでは動作してないです。
+2025/04/27に更新それまでは動作してなかったようで  
 動作ページ(ただし更新されない…)  
-「02:25:50.217 PyScript boot」な表示が出たら「btc_jpy」選択し「submit」
-~~「開始は2025年03月15日 19:20:07.326000です。」な表示が出たらな表示が出たら準備完了(結構時間がかかる)  ~~
+「02:25:50.217 PyScript boot」な表示が出たら「btc_jpy」選択し「submit」  
+<del>「開始は2025年03月15日 19:20:07.326000です。」な表示が出たらな表示が出たら準備完了(結構時間がかかる)</del>  
 [Github Pages](https://oxxpeh.github.io/2025/03_pys_ch.html)  
 説明  
 [Github](https://github.com/oxxpeh/pub/blob/main/python/10s-chart/README.md)  
